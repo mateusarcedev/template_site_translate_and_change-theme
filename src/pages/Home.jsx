@@ -3,6 +3,7 @@ import animationData from "../lottie/web.json";
 import { useTranslation } from "react-i18next";
 import "../i18n";
 import Particulas from "../particles";
+import Header from "../components/Header";
 
 function Home() {
   const { t } = useTranslation();
@@ -16,18 +17,21 @@ function Home() {
     },
   };
   return (
-    <div id="home" className="flex items-center justify-between flex-wrap p-60">
+    <div>
+      <Header />
       <Particulas />
-      <div className="flex w-1/2 flex-col items-center justify-center text-center">
-        <h1 className="text-6xl font-bold dark:text-white text-dark-900 pb-4">
-          {t("home.title")}
-        </h1>
-        <p className="dark:text-white text-2xl text-dark-900">
-          {t("home.slogan")}
-        </p>
-      </div>
-      <div className="flex h-full items-center justify-center">
-        <Lottie options={defaultOptions} height={400} width={400} />
+      <div className="w-full h-[720px] flex items-center justify-center flex-wrap">
+        <div className="w-1/2">
+          <h1 className="sm:text-sm md:text-md lg:text-6xl font-bold dark:text-white text-dark-900 pb-4">
+            {t("home.title")}
+          </h1>
+          <p className="dark:text-white text-2xl text-dark-900">
+            {t("home.slogan")}
+          </p>
+        </div>
+        <div>
+          <Lottie options={defaultOptions} height={500} width={500} />
+        </div>
       </div>
     </div>
   );
