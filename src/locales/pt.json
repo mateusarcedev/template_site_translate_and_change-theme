@@ -3,6 +3,7 @@
   "header.linkServices": "Serviços",
   "header.linkProjects": "Projetos",
   "header.linkContact": "Contato",
-  "home.title": "Example of language and theme switching",
-  "home.text": "Este é um exemplo de um site utilizando a biblioteca Particle.js para efeitos visuais dinâmicos, além de implementar mudanças de tema e suporte a múltiplos idiomas. Este site pode ser utilizado como um template ideal para projetos futuros, combinando funcionalidade moderna com flexibilidade de personalização."
+  "home.title": "Exemplo de troca de idioma e tema",
+  "home.text": "Este é um exemplo de um site utilizando a biblioteca Particle.js para efeitos visuais dinâmicos, além de implementar mudanças de tema e suporte a múltiplos idiomas. Este site pode ser utilizado como um template ideal para projetos futuros, combinando funcionalidade moderna com flexibilidade de personalização.",
+  "button.github": "Código fonte do projeto"
 }

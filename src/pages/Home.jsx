@@ -1,20 +1,12 @@
-import animationData from "../lottie/web.json";
 import { useTranslation } from "react-i18next";
 import "../i18n";
 import Particulas from "../particles";
 import Header from "../components/Header";
+import { FaGithub } from "react-icons/fa";
+
 
 function Home() {
   const { t } = useTranslation();
-
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
   return (
     <div>
       <Header />
@@ -27,6 +19,14 @@ function Home() {
           <p className="dark:text-white text-2xl text-dark-900">
             {t("home.text")}
           </p>
+          <div className="w-full flex justify-center">
+            <a href="https://github.com/mateusarcedev/template_site_translate_and_change-theme">
+              <button className="dark:text-white text-2xl w-80 h-16 flex items-center justify-center gap-5 text-dark-900 my-5 bg-slate-100 dark:bg-slate-700 rounded-md hover:bg-gray-500">
+                <FaGithub />
+                {t("button.github")}
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </div>

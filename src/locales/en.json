@@ -4,5 +4,6 @@
   "header.linkProjects": "Projects",
   "header.linkContact": "Contact",
   "home.title": "Boost Your Business in the Digital World",
-  "home.text": "This is an example of a website using the Particle.js library for dynamic visual effects, as well as implementing theme changes and multi-language support. This site can be used as an ideal template for future projects, combining modern functionality with customization flexibility."
+  "home.text": "This is an example of a website using the Particle.js library for dynamic visual effects, as well as implementing theme changes and multi-language support. This site can be used as an ideal template for future projects, combining modern functionality with customization flexibility.",
+  "button.github": "Project source code"
 }
