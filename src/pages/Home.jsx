@@ -1,4 +1,3 @@
-import Lottie from "react-lottie";
 import animationData from "../lottie/web.json";
 import { useTranslation } from "react-i18next";
 import "../i18n";
@@ -26,11 +25,8 @@ function Home() {
             {t("home.title")}
           </h1>
           <p className="dark:text-white text-2xl text-dark-900">
-            {t("home.slogan")}
+            {t("home.text")}
           </p>
-        </div>
-        <div>
-          <Lottie options={defaultOptions} height={500} width={500} />
         </div>
       </div>
     </div>

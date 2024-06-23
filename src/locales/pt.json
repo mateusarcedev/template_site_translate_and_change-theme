@@ -1,9 +1,8 @@
 {
   "header.linkHome": "Início",
-  "header.linkAbout": "Sobre",
   "header.linkServices": "Serviços",
   "header.linkProjects": "Projetos",
   "header.linkContact": "Contato",
-  "home.title": "Impulsione Seu Negócio no Mundo Digital",
-  "home.slogan": "Soluções digitais que refletem a sua marca. Seja único."
+  "home.title": "Example of language and theme switching",
+  "home.text": "Este é um exemplo de um site utilizando a biblioteca Particle.js para efeitos visuais dinâmicos, além de implementar mudanças de tema e suporte a múltiplos idiomas. Este site pode ser utilizado como um template ideal para projetos futuros, combinando funcionalidade moderna com flexibilidade de personalização."
 }
